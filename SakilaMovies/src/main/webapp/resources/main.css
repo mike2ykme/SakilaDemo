@@ -1,0 +1,139 @@
+@CHARSET "ISO-8859-1";
+
+#leftColumn {
+	position: relative;
+	width: 20%;
+	height: auto;
+}
+
+#rightColumn {
+	position: relative;
+	width: 80%;
+	height: auto;
+}
+
+.headerBar {
+	clear: both;
+}
+
+.floatbox {
+	float: left;
+	padding: 5px;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #cccccc;
+	color: navy;
+	text-align: left;
+}
+
+.grayed {
+	color: #888;
+	background-color: #CCCCCC;
+}
+
+.grayBox {
+	padding: 10px;
+	float: left;
+	color: black;
+	margin: auto;
+	border-width: 1px;
+	border-style: solid;
+	background-color: #cccccc;
+	float: left;
+	word-wrap: break-word;
+
+}
+
+.option {
+	float: left;
+	padding: 30px;
+	color: red;
+	margin: auto;
+}
+
+a.blueHyperlink {
+	color: blue;
+}
+
+.list {
+	float: left;
+	border-width: 1px;
+	border-style: solid;
+	/* 	padding: 90px color: black; */
+	margin: auto;
+	background-color: #CCCCCC
+}
+
+.style1 {
+	/* 	http://wallpapersafari.com/using-wallpaper-for-flooring/ */
+	background-image: url(img/flooring.jpg);
+	background-color: #cccccc;
+	background-position: top;
+}
+
+.time {
+	font-size: xx-large;
+	color: black;
+	float: right;
+}
+
+.footer {
+	text-align: center;
+	clear: both;
+}
+
+.header {
+	text-align: center;
+	clear: both;
+	font-size: xx-large;
+	color: maroon;
+}
+.status {
+	text-align: center;
+	clear: both;
+	font-size: xx-large;
+	color: black;
+}
+.header a {
+	text-align: center;
+	clear: both;
+	font-size: xx-large;
+	color: red;
+	text-decoration: none;
+}
+
+.error {
+	text-align: center;
+	clear: both;
+	font-size: xx-large;
+	color: black;
+}
+
+.welcome {
+	text-align: center;
+	clear: both;
+	font-size: xx-large;
+	color: black;
+}
+
+DIV.table {
+	display: table;
+}
+
+FORM.tr, DIV.tr {
+	display: table-row;
+}
+
+SPAN.td {
+	display: table-cell;
+}
+
+.btn-style {
+	border: solid 2px #ffffff;
+	border-radius: 3px;
+	moz-border-radius: 3px;
+	font-size: 20px;
+	color: #ffffff;
+	padding: 1px 17px;
+	background-color: #0a66c9;
+}

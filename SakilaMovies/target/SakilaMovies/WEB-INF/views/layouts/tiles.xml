@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="sakila.base" template="/WEB-INF/views/templates/base.jsp">
+		<put-attribute name="title" value="Sakila Homepage"></put-attribute>
+		<put-attribute name="headElement"
+			value="/WEB-INF/views/templates/jsp/headElement.jsp"></put-attribute>
+		<put-attribute name="bodyStartTag"
+			value="/WEB-INF/views/templates/jsp/bodyStartTag.jsp"></put-attribute>
+		<put-attribute name="header"
+			value="/WEB-INF/views/templates/jsp/header.jsp"></put-attribute>
+		<put-attribute name="content"
+			value="/WEB-INF/views/templates/jsp/content.jsp"></put-attribute>
+		<put-attribute name="footer"
+			value="/WEB-INF/views/templates/jsp/footer.jsp"></put-attribute>
+	</definition>
+	<definition name="home" extends="sakila.base">
+		<put-attribute name="title" value="Sakila Homepage"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/views/tiles/home.jsp"></put-attribute>
+	</definition>
+	<definition name="404" extends="sakila.base">
+		<put-attribute name="title" value="404 Page Not Found"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/views/tiles/404.jsp"></put-attribute>
+	</definition>
+	<definition name="balancePaidFailure" extends="sakila.base">
+		<put-attribute name="title" value="Failed To Pay Balance"></put-attribute>
+		<put-attribute name="content"
+			value="/WEB-INF/views/tiles/balancePaidFailure.jsp"></put-attribute>
+	</definition>
+	<definition name="balancePaidSuccess" extends="sakila.base">
+		<put-attribute name="title" value="Balance Paid Success"></put-attribute>
+		<put-attribute name="content"
+			value="/WEB-INF/views/tiles/balancePaidSuccess.jsp"></put-attribute>
+	</definition>
+	<definition name="error" extends="sakila.base">
+		<put-attribute name="title" value="Ooooooooops"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/views/tiles/error.jsp"></put-attribute>
+	</definition>
+	<definition name="login" extends="sakila.base">
+		<put-attribute name="title" value="login"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/views/tiles/login.jsp"></put-attribute>
+	</definition>
+	<definition name="movieReturnedFailure" extends="sakila.base">
+		<put-attribute name="title" value="movieReturnedFailure"></put-attribute>
+		<put-attribute name="content"
+			value="/WEB-INF/views/tiles/movieReturnedFailure.jsp"></put-attribute>
+	</definition>
+	<definition name="movieReturnedSuccess" extends="sakila.base">
+		<put-attribute name="title" value="movieReturnedSuccess"></put-attribute>
+		<put-attribute name="content"
+			value="/WEB-INF/views/tiles/movieReturnedSuccess.jsp"></put-attribute>
+	</definition>
+	<definition name="rentalFailure" extends="sakila.base">
+		<put-attribute name="title" value="rentalFailure"></put-attribute>
+		<put-attribute name="content"
+			value="/WEB-INF/views/tiles/rentalFailure.jsp"></put-attribute>
+	</definition>
+	<definition name="rentalSuccess" extends="sakila.base">
+		<put-attribute name="title" value="rentalSuccess"></put-attribute>
+		<put-attribute name="content"
+			value="/WEB-INF/views/tiles/rentalSuccess.jsp"></put-attribute>
+	</definition>
+	<definition name="searchCustomer" extends="sakila.base">
+		<put-attribute name="title" value="searchCustomer"></put-attribute>
+		<put-attribute name="content"
+			value="/WEB-INF/views/tiles/searchCustomer.jsp"></put-attribute>
+	</definition>
+	<definition name="searchMovie" extends="sakila.base">
+		<put-attribute name="title" value="searchMovie"></put-attribute>
+		<put-attribute name="content"
+			value="/WEB-INF/views/tiles/searchMovie.jsp"></put-attribute>
+	</definition>
+	<definition name="showCustomer" extends="sakila.base">
+		<put-attribute name="title" value="showCustomer"></put-attribute>
+		<put-attribute name="content"
+			value="/WEB-INF/views/tiles/showCustomer.jsp"></put-attribute>
+	</definition>
+	<definition name="updateCustomer" extends="sakila.base">
+		<put-attribute name="title" value="updateCustomer"></put-attribute>
+		<put-attribute name="content"
+			value="/WEB-INF/views/tiles/updateCustomer.jsp"></put-attribute>
+	</definition>
+	<definition name="showMovie" extends="sakila.base">
+		<put-attribute name="title" value="showMovie"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/views/tiles/showMovie.jsp"></put-attribute>
+	</definition>
+	<definition name="updateStaff" extends="sakila.base">
+		<put-attribute name="title" value="updateStaff"></put-attribute>
+		<put-attribute name="content"
+			value="/WEB-INF/views/tiles/updateStaff.jsp"></put-attribute>
+	</definition>
+	<definition name="updateSuccess" extends="sakila.base">
+		<put-attribute name="title" value="updateSuccess"></put-attribute>
+		<put-attribute name="content"
+			value="/WEB-INF/views/tiles/updateSuccess.jsp"></put-attribute>
+	</definition>
+
+</tiles-definitions>
