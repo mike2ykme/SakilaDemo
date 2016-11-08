@@ -36,31 +36,15 @@ public class HomeController {
 		return "404";
 	}
 
-//	@RequestMapping(value="/addCustomer", method=RequestMethod.GET)
-//	public String addCustomer(Model model){
-//		model.addAttribute("newCustomer",new Customer());
-//		return "addCustomer";
-//	}
-//	
-//	@RequestMapping(value="/verifyAddCustomer", method=RequestMethod.POST)
-//	public String addCustomer(Model model, @Valid Customer newCustomer, Errors errors){
-//		int id = 0;
-//		
-//		if(errors.hasErrors()){
-//			model.addAttribute("newCustomer", newCustomer);
-//			return "/addCustomer";
-//		}
-//		
-//		newCustomer.setId(id);
-//		
-//		
-//		
-//		return "redirect:/selectCustomer?customerId=" + newCustomer.getId();
-//	}
 	
 	@RequestMapping(value="/login")
 	public String showLogin(Model model){
 		
 		return "login";
 	}
+	
+//	@RequestMapping(value="/loggedout")
+//	public String showLoggedOut(Model model){
+//		return "loggedout";
+//	}
 }

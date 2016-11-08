@@ -76,6 +76,11 @@ a.blueHyperlink {
 	color: black;
 	float: right;
 }
+a.leftLogout{
+	font-size: x-large;
+	color:blue;
+	float: left;
+}
 
 .footer {
 	text-align: center;
@@ -119,7 +124,11 @@ a.blueHyperlink {
 DIV.table {
 	display: table;
 }
-
+.formtable {
+	width: 400px;
+	padding: 10px;
+	border: 1px solid blue;
+}
 FORM.tr, DIV.tr {
 	display: table-row;
 }
@@ -127,7 +136,12 @@ FORM.tr, DIV.tr {
 SPAN.td {
 	display: table-cell;
 }
-
+p.error{
+	text-align:center;
+	color:red;
+	font-size: x-large;
+	padding-left: 20px;
+}
 .btn-style {
 	border: solid 2px #ffffff;
 	border-radius: 3px;

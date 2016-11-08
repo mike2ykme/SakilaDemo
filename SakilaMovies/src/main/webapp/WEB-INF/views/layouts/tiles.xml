@@ -42,6 +42,10 @@
 		<put-attribute name="title" value="Login Page"></put-attribute>
 		<put-attribute name="content" value="/WEB-INF/views/tiles/login.jsp"></put-attribute>
 	</definition>
+	<definition name="logout" extends="sakila.base">
+		<put-attribute name="title" value="Log Out Page"></put-attribute>
+		<put-attribute name="content" value="/WEB-INF/views/tiles/logout.jsp"></put-attribute>
+	</definition>
 	<definition name="movieReturnedFailure" extends="sakila.base">
 		<put-attribute name="title" value="Movie Returned Failure"></put-attribute>
 		<put-attribute name="content"
@@ -64,7 +68,8 @@
 	</definition>
 	<definition name="searchCustomer" extends="sakila.base">
 		<put-attribute name="title" value="Search Customer"></put-attribute>
-		<put-attribute name="content" value="/WEB-INF/views/tiles/searchCustomer.jsp"></put-attribute>
+		<put-attribute name="content"
+			value="/WEB-INF/views/tiles/searchCustomer.jsp"></put-attribute>
 	</definition>
 	<definition name="searchMovie" extends="sakila.base">
 		<put-attribute name="title" value="Search Movie"></put-attribute>
